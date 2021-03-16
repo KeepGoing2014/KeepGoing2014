@@ -6,7 +6,7 @@ const { ccclass, property } = _decorator;
 @ccclass('Game')
 export class Game extends Component {
     @property({
-        type:CarManager
+        type: CarManager
     })
     carManager: CarManager = null!
 

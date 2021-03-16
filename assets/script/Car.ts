@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, Vec3, RigidBody, ConstantForce, director, MotionStreak, } from 'cc';
+import { _decorator, Component, Node, Vec3, RigidBody, ConstantForce, director, MotionStreak, ParticleSystem, instantiate, ParticleSystemComponent, ParticleUtils, } from 'cc';
 import { Configs } from "../script/Configs";
 const { ccclass, property } = _decorator;
 
@@ -8,7 +8,14 @@ export class Car extends Component {
     private isDrfit: Boolean = false;
     private body: RigidBody = null!;
     private constant: ConstantForce = null!
-    private pos: Vec3 = new Vec3();
+    @property({
+        type:Node
+    })
+    left: Node = null!
+    @property({
+        type:Node
+    })
+    right:Node=null!
     @property({
         type: Vec3
     })
@@ -28,21 +35,17 @@ export class Car extends Component {
     }
     public startDrifting() {
         this.isDrfit = true;
+        ParticleUtils.play(this.left)
+        ParticleUtils.play(this.right)
     }
     public stopDrift() {
         this.isDrfit = false;
         this.constant.enabled = false;
-        // this.scheduleOnce(function () {
-
-        //     director.loadScene("scene")
-        // }, 2)
-
     }
 
     update(deltaTime: number) {
-        // this.getComponent(MotionStreak).
         if (this.isDrfit) {
-            this.body.applyImpulse(this.implse,this.anchor)
+            this.body.applyImpulse(this.implse, this.anchor);
             this.body.applyTorque(this.torque);
         }
     }

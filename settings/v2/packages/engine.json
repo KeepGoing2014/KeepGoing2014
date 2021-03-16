@@ -12,7 +12,7 @@
         "_value": true
       },
       "gfx-webgl2": {
-        "_value": false
+        "_value": true
       },
       "3d": {
         "_value": true
@@ -44,7 +44,7 @@
         "_value": false
       },
       "particle-2d": {
-        "_value": true
+        "_value": false
       },
       "audio": {
         "_value": false
@@ -74,11 +74,11 @@
     "includeModules": [
       "base",
       "gfx-webgl",
+      "gfx-webgl2",
       "3d",
       "ui",
       "particle",
-      "physics-ammo",
-      "particle-2d"
+      "physics-ammo"
     ],
     "noDeprecatedFeatures": {
       "value": false,
