@@ -29,14 +29,14 @@ export class Car extends Component {
     })
     anchor = new Vec3(0, -0.1, -0.1);
         
-    public start() {
+    public start() {1
         this.body = this.getComponent(RigidBody)!;
         this.constant = this.getComponent(ConstantForce)!;
     }
     public startDrifting() {
         this.isDrfit = true;
-        ParticleUtils.play(this.left)
-        ParticleUtils.play(this.right)
+        ParticleUtils.play(this.left);
+        ParticleUtils.play(this.right);
     }
     public stopDrift() {
         this.isDrfit = false;

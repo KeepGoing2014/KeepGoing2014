@@ -1,6 +1,15 @@
 
 import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
+enum PARK_TYPE{
+    NPC = 1,
+    CARS = 2,
+    PARK = 3,
+}
+enum EVENT_NAME{
+    START = 'start',
+    END = 'end',
+}
 
 @ccclass('Configs')
 export class Configs {

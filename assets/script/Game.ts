@@ -13,6 +13,7 @@ export class Game extends Component {
     public onLoad() {
         this.node.on(Node.EventType.TOUCH_START, this.touchStart, this);
         this.node.on(Node.EventType.TOUCH_END, this.touchEnd, this);
+        
         // [3]
     }
 

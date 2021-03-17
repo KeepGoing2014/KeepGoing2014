@@ -1,0 +1,76 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "9f55d9ed-0629-4c4a-bc5e-8d08e2334644",
+  "files": [],
+  "subMetas": {
+    "56230": {
+      "importer": "gltf-scene",
+      "uuid": "9f55d9ed-0629-4c4a-bc5e-8d08e2334644@56230",
+      "displayName": "",
+      "id": "56230",
+      "name": "fence_short.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "96671": {
+      "importer": "gltf-mesh",
+      "uuid": "9f55d9ed-0629-4c4a-bc5e-8d08e2334644@96671",
+      "displayName": "",
+      "id": "96671",
+      "name": "Mesh fence_short.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e4014": {
+      "importer": "gltf-material",
+      "uuid": "9f55d9ed-0629-4c4a-bc5e-8d08e2334644@e4014",
+      "displayName": "",
+      "id": "e4014",
+      "name": "wood.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "9f55d9ed-0629-4c4a-bc5e-8d08e2334644@56230",
+    "assetFinder": {
+      "meshes": [
+        "9f55d9ed-0629-4c4a-bc5e-8d08e2334644@96671"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "9f55d9ed-0629-4c4a-bc5e-8d08e2334644@e4014"
+      ],
+      "scenes": [
+        "9f55d9ed-0629-4c4a-bc5e-8d08e2334644@56230"
+      ]
+    }
+  }
+}
