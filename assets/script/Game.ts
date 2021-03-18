@@ -1,6 +1,7 @@
 
 import { _decorator, Component, Node } from 'cc';
 import { CarManager } from './CarManager';
+import { Configs } from './Configs';
 const { ccclass, property } = _decorator;
 
 @ccclass('Game')
@@ -9,12 +10,13 @@ export class Game extends Component {
         type: CarManager
     })
     carManager: CarManager = null!
+    public __preload() {
+        Configs.game = this;
+    }
 
     public onLoad() {
         this.node.on(Node.EventType.TOUCH_START, this.touchStart, this);
         this.node.on(Node.EventType.TOUCH_END, this.touchEnd, this);
-        
-        // [3]
     }
 
     private touchStart() {

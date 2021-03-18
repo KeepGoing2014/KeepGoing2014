@@ -35,7 +35,7 @@ export class PoolManager{
             this.dicPool[name] = pool;
             node = instantiate(prefab) as Node;
         }
-        node.parent = parent;
+        // node.parent = parent;
         return node;
 
     }

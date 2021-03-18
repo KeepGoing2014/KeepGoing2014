@@ -1,5 +1,6 @@
 
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, Vec3 } from 'cc';
+import{Game} from './Game'
 const { ccclass, property } = _decorator;
 enum PARK_TYPE{
     NPC = 1,
@@ -13,11 +14,10 @@ enum EVENT_NAME{
 
 @ccclass('Configs')
 export class Configs {
-    static IMX = -0.06;
-    static IMY = 0;
-    static IMZ = 0.06;
-    static TOX = 0;
-    static TOY = 0.2;
-    static TOZ = 0;
+    static game: Game;
+    static target: Node;
+    static SUV_NUM = 5;
+    static CAR_SCALE = new Vec3(0.15, 0.15, 0.15);
+    static CAR_INIT=new Vec3(0,0,9.5)
 }
 
