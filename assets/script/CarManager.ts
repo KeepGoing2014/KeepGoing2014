@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, resources, Prefab, Vec3 } from 'cc';
+import { _decorator, Component, Node, resources, Prefab, Vec3, ConstantForce } from 'cc';
 import { Car } from './Car';
 import { PoolManager } from './PoolManager';
 import { Configs } from './Configs';
@@ -10,7 +10,7 @@ export class CarManager extends Component {
     @property({
         type: Prefab
     })
-    suv: Prefab = null!    
+    suv: Prefab = null!
     private suvs: Node[] = [];
     private cars: Node[] = [];
     private car: Car = null!
@@ -30,12 +30,14 @@ export class CarManager extends Component {
     }
     public initSuvs() {
         for (let index = 0; index < Configs.SUV_NUM; index++) {
-            const node = PoolManager.instance.getNode(this.suv, this.node);
+            const node = PoolManager.instance.getNode(this.suv);
             this.suvs.push(node);
         }
     }
-    public newSvu(curr:Vec3) {
+    public newSvu(curr: Vec3) {
         let node = this.suvs.shift()!;
+        node.getComponent(ConstantForce)!.enabled = true;
+        node.eulerAngles = new Vec3(0, 0, 0);
         node.worldPosition = curr;
         node.parent = this.node.parent;
         this.carmeraFollow(node);
@@ -51,7 +53,7 @@ export class CarManager extends Component {
             }
             for (let index = 0; index < prefab.length; index++) {
                 const element = prefab[index];
-                let node = PoolManager.instance.getNode(element, self.node);
+                let node = PoolManager.instance.getNode(element);
                 node.setScale(Configs.CAR_SCALE);
                 node.setPosition(new Vec3(-0.7, 0, 9.5 - 2 * index));
                 self.cars.push(node);

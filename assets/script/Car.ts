@@ -37,7 +37,7 @@ export class Car extends Component {
     }
     public startDrifting() {
         this.isDrfit = true;
-        this.currPos = new Vec3(0,0,this.node.worldPosition.z);
+        this.currPos = new Vec3(0, 0, this.node.worldPosition.z);
         ParticleUtils.play(this.left);
         ParticleUtils.play(this.right);
     }
@@ -47,9 +47,7 @@ export class Car extends Component {
         let self = this;
         this.scheduleOnce(function () {
             Configs.game.carManager.newSvu(self.currPos);
-        },1)
-        
-        // Configs.game.carManager.carmeraFollow(this.node);
+        }, 1)
     }
     update(deltaTime: number) {
         if (this.isDrfit) {

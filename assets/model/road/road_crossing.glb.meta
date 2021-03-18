@@ -1,0 +1,127 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "237c4d36-61bf-4606-8272-dd76e09dba42",
+  "files": [],
+  "subMetas": {
+    "34703": {
+      "importer": "gltf-material",
+      "uuid": "237c4d36-61bf-4606-8272-dd76e09dba42@34703",
+      "displayName": "",
+      "id": "34703",
+      "name": "line.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8141": {
+      "importer": "gltf-mesh",
+      "uuid": "237c4d36-61bf-4606-8272-dd76e09dba42@e8141",
+      "displayName": "",
+      "id": "e8141",
+      "name": "Mesh road_crossing.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2243": {
+      "importer": "gltf-material",
+      "uuid": "237c4d36-61bf-4606-8272-dd76e09dba42@e2243",
+      "displayName": "",
+      "id": "e2243",
+      "name": "pavement.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "787bd": {
+      "importer": "gltf-material",
+      "uuid": "237c4d36-61bf-4606-8272-dd76e09dba42@787bd",
+      "displayName": "",
+      "id": "787bd",
+      "name": "asphalt.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ca6d7": {
+      "importer": "gltf-material",
+      "uuid": "237c4d36-61bf-4606-8272-dd76e09dba42@ca6d7",
+      "displayName": "",
+      "id": "ca6d7",
+      "name": "asphaltEdge.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f82ac": {
+      "importer": "gltf-scene",
+      "uuid": "237c4d36-61bf-4606-8272-dd76e09dba42@f82ac",
+      "displayName": "",
+      "id": "f82ac",
+      "name": "road_crossing.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "237c4d36-61bf-4606-8272-dd76e09dba42@f82ac",
+    "assetFinder": {
+      "meshes": [
+        "237c4d36-61bf-4606-8272-dd76e09dba42@e8141"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "237c4d36-61bf-4606-8272-dd76e09dba42@34703",
+        "237c4d36-61bf-4606-8272-dd76e09dba42@e2243",
+        "237c4d36-61bf-4606-8272-dd76e09dba42@787bd",
+        "237c4d36-61bf-4606-8272-dd76e09dba42@ca6d7"
+      ],
+      "scenes": [
+        "237c4d36-61bf-4606-8272-dd76e09dba42@f82ac"
+      ]
+    }
+  }
+}

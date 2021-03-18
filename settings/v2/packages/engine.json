@@ -12,7 +12,7 @@
         "_value": true
       },
       "gfx-webgl2": {
-        "_value": true
+        "_value": false
       },
       "3d": {
         "_value": true
@@ -74,11 +74,10 @@
     "includeModules": [
       "base",
       "gfx-webgl",
-      "gfx-webgl2",
       "3d",
-      "ui",
       "particle",
-      "physics-ammo"
+      "physics-ammo",
+      "ui"
     ],
     "noDeprecatedFeatures": {
       "value": false,
