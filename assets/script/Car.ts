@@ -49,9 +49,15 @@ export class Car extends Component {
         }, 1)
     }
     update(deltaTime: number) {
+        if (this.node.worldPosition.z < Configs.ROAD_POS_Z*Configs.CURR_ROAD_INDEX) {//超过某个点后将第一条道路回收放在后面 形成无限的道路。
+            Configs.game.roadManager.newRoad();
+        }
         if (this.isDrfit) {
-            this.body.applyImpulse(this.implse, this.anchor);
-            this.body.applyTorque(this.torque);
+            /**
+             * 具体数值需要根据刚体质量 摩檫力 等数值进行调整。
+             */
+            this.body.applyImpulse(this.implse, this.anchor);//施加冲量
+            this.body.applyTorque(this.torque);//施加扭矩 
         }
     }
 }

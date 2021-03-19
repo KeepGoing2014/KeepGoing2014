@@ -11,6 +11,7 @@ export class RoadManager extends Component {
     })
     road: Prefab = null!
     public roads: Node[] = [];
+    
 
     public __preload() {
         this.initRoad();
@@ -22,5 +23,12 @@ export class RoadManager extends Component {
             node.parent = this.node.parent;
             this.roads.push(node);
         }
+    }
+    public newRoad() {
+        Configs.CURR_ROAD_INDEX++;
+        let node = this.roads.shift()!
+        node.setWorldPosition(new Vec3(0, 0, Configs.ROAD_POS_Z * Configs.CURR_ROAD_INDEX));
+        node.parent = this.node.parent;
+        this.roads.push(node);
     }
 }

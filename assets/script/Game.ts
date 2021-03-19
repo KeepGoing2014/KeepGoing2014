@@ -2,6 +2,7 @@
 import { _decorator, Component, Node } from 'cc';
 import { CarManager } from './CarManager';
 import { Configs } from './Configs';
+import { RoadManager } from './RoadManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('Game')
@@ -10,6 +11,11 @@ export class Game extends Component {
         type: CarManager
     })
     carManager: CarManager = null!
+    @property({
+        type:RoadManager
+    })
+    roadManager: RoadManager = null!
+
     public __preload() {
         Configs.game = this;
     }
