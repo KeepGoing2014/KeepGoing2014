@@ -1,0 +1,93 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "65908cd6-35da-48ae-b717-3e8107261b6c",
+  "files": [],
+  "subMetas": {
+    "d403f": {
+      "importer": "gltf-mesh",
+      "uuid": "65908cd6-35da-48ae-b717-3e8107261b6c@d403f",
+      "displayName": "",
+      "id": "d403f",
+      "name": "Mesh construction_pylon.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d6de6": {
+      "importer": "gltf-material",
+      "uuid": "65908cd6-35da-48ae-b717-3e8107261b6c@d6de6",
+      "displayName": "",
+      "id": "d6de6",
+      "name": "cone.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2243": {
+      "importer": "gltf-material",
+      "uuid": "65908cd6-35da-48ae-b717-3e8107261b6c@e2243",
+      "displayName": "",
+      "id": "e2243",
+      "name": "pavement.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac4dd": {
+      "importer": "gltf-scene",
+      "uuid": "65908cd6-35da-48ae-b717-3e8107261b6c@ac4dd",
+      "displayName": "",
+      "id": "ac4dd",
+      "name": "construction_pylon.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "65908cd6-35da-48ae-b717-3e8107261b6c@ac4dd",
+    "assetFinder": {
+      "meshes": [
+        "65908cd6-35da-48ae-b717-3e8107261b6c@d403f"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "65908cd6-35da-48ae-b717-3e8107261b6c@d6de6",
+        "65908cd6-35da-48ae-b717-3e8107261b6c@e2243"
+      ],
+      "scenes": [
+        "65908cd6-35da-48ae-b717-3e8107261b6c@ac4dd"
+      ]
+    }
+  }
+}

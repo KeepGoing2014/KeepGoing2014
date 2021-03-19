@@ -17,7 +17,8 @@ export class Configs {
     static game: Game;
     static target: Node;
     static SUV_NUM = 5;
-    static ROAD_NUM = 10;
+    static ROAD_NUM = 2;
+    static ROAD_POS_Z = -46;
     static CAR_SCALE = new Vec3(0.15, 0.15, 0.15);
     static CAR_INIT=new Vec3(0,0,9)
 }
