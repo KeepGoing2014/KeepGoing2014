@@ -1,0 +1,76 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "5624ec82-b601-4402-85ad-d6d62b624c41",
+  "files": [],
+  "subMetas": {
+    "ff878": {
+      "importer": "gltf-mesh",
+      "uuid": "5624ec82-b601-4402-85ad-d6d62b624c41@ff878",
+      "displayName": "",
+      "id": "ff878",
+      "name": "Mesh construction_barrier.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2243": {
+      "importer": "gltf-material",
+      "uuid": "5624ec82-b601-4402-85ad-d6d62b624c41@e2243",
+      "displayName": "",
+      "id": "e2243",
+      "name": "pavement.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ceca": {
+      "importer": "gltf-scene",
+      "uuid": "5624ec82-b601-4402-85ad-d6d62b624c41@7ceca",
+      "displayName": "",
+      "id": "7ceca",
+      "name": "construction_barrier.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "5624ec82-b601-4402-85ad-d6d62b624c41@7ceca",
+    "assetFinder": {
+      "meshes": [
+        "5624ec82-b601-4402-85ad-d6d62b624c41@ff878"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "5624ec82-b601-4402-85ad-d6d62b624c41@e2243"
+      ],
+      "scenes": [
+        "5624ec82-b601-4402-85ad-d6d62b624c41@7ceca"
+      ]
+    }
+  }
+}

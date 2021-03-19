@@ -1,0 +1,127 @@
+{
+  "ver": "2.0.10",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "00198882-6035-43b1-bc02-bad6f1f5b43c",
+  "files": [],
+  "subMetas": {
+    "9a335": {
+      "importer": "gltf-mesh",
+      "uuid": "00198882-6035-43b1-bc02-bad6f1f5b43c@9a335",
+      "displayName": "",
+      "id": "9a335",
+      "name": "Mesh construction_light.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ca6d7": {
+      "importer": "gltf-material",
+      "uuid": "00198882-6035-43b1-bc02-bad6f1f5b43c@ca6d7",
+      "displayName": "",
+      "id": "ca6d7",
+      "name": "asphaltEdge.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d6de6": {
+      "importer": "gltf-material",
+      "uuid": "00198882-6035-43b1-bc02-bad6f1f5b43c@d6de6",
+      "displayName": "",
+      "id": "d6de6",
+      "name": "cone.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2243": {
+      "importer": "gltf-material",
+      "uuid": "00198882-6035-43b1-bc02-bad6f1f5b43c@e2243",
+      "displayName": "",
+      "id": "e2243",
+      "name": "pavement.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c75fc": {
+      "importer": "gltf-material",
+      "uuid": "00198882-6035-43b1-bc02-bad6f1f5b43c@c75fc",
+      "displayName": "",
+      "id": "c75fc",
+      "name": "light.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "46c97": {
+      "importer": "gltf-scene",
+      "uuid": "00198882-6035-43b1-bc02-bad6f1f5b43c@46c97",
+      "displayName": "",
+      "id": "46c97",
+      "name": "construction_light.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "00198882-6035-43b1-bc02-bad6f1f5b43c@46c97",
+    "assetFinder": {
+      "meshes": [
+        "00198882-6035-43b1-bc02-bad6f1f5b43c@9a335"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "00198882-6035-43b1-bc02-bad6f1f5b43c@ca6d7",
+        "00198882-6035-43b1-bc02-bad6f1f5b43c@d6de6",
+        "00198882-6035-43b1-bc02-bad6f1f5b43c@e2243",
+        "00198882-6035-43b1-bc02-bad6f1f5b43c@c75fc"
+      ],
+      "scenes": [
+        "00198882-6035-43b1-bc02-bad6f1f5b43c@46c97"
+      ]
+    }
+  }
+}

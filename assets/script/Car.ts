@@ -1,7 +1,6 @@
 
 import { _decorator, Component, Node, Vec3, RigidBody, ConstantForce, director, MotionStreak, ParticleSystem, instantiate, ParticleSystemComponent, ParticleUtils, BoxCollider, } from 'cc';
 import { Configs } from "./Configs";
-import { CarManager } from "./CarManager";
 const { ccclass, property } = _decorator;
 
 @ccclass('Car')
@@ -21,15 +20,15 @@ export class Car extends Component {
     @property({
         type: Vec3
     })
-    implse = new Vec3(-0.1, 0, 0.1);
+    implse = new Vec3();
     @property({
         type: Vec3
     })
-    torque = new Vec3(0, 0.3, 0);
+    torque = new Vec3();
     @property({
         type: Vec3
     })
-    anchor = new Vec3(0, -0.1, -0.1);
+    anchor = new Vec3();
 
     public onLoad() {
         this.body = this.getComponent(RigidBody)!;
