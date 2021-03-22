@@ -45,7 +45,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 19.5
+      "z": 0
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -319,7 +319,7 @@
     "_mesh": {
       "__uuid__": "a0a4357f-9230-411e-bd75-7bc1e9ea88c4@f6576"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_enableMorph": true,
     "_id": ""
@@ -425,7 +425,7 @@
     "_mesh": {
       "__uuid__": "a0a4357f-9230-411e-bd75-7bc1e9ea88c4@53aa0"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_enableMorph": true,
     "_id": ""
@@ -531,7 +531,7 @@
     "_mesh": {
       "__uuid__": "a0a4357f-9230-411e-bd75-7bc1e9ea88c4@53aa0"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_enableMorph": true,
     "_id": ""
@@ -637,7 +637,7 @@
     "_mesh": {
       "__uuid__": "a0a4357f-9230-411e-bd75-7bc1e9ea88c4@53aa0"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_enableMorph": true,
     "_id": ""
@@ -743,7 +743,7 @@
     "_mesh": {
       "__uuid__": "a0a4357f-9230-411e-bd75-7bc1e9ea88c4@53aa0"
     },
-    "_shadowCastingMode": 0,
+    "_shadowCastingMode": 1,
     "_shadowReceivingMode": 1,
     "_enableMorph": true,
     "_id": ""
@@ -1512,9 +1512,9 @@
     },
     "implse": {
       "__type__": "cc.Vec3",
-      "x": -0.05,
+      "x": -0.06,
       "y": 0,
-      "z": 0.05
+      "z": 0.06
     },
     "torque": {
       "__type__": "cc.Vec3",
@@ -1545,7 +1545,7 @@
     "__prefab": {
       "__id__": 91
     },
-    "_group": 1,
+    "_group": 2,
     "_type": 1,
     "_mass": 1,
     "_allowSleep": true,

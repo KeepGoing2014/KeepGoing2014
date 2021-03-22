@@ -1,3 +1,15 @@
 {
-  "__version__": "1.0.1"
+  "__version__": "1.0.1",
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "CAR"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 3,
+      "1": 1
+    }
+  }
 }
