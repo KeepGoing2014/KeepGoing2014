@@ -38,7 +38,7 @@
         "_value": false
       },
       "primitive": {
-        "_value": true
+        "_value": false
       },
       "profiler": {
         "_value": false
@@ -75,10 +75,9 @@
       "base",
       "gfx-webgl",
       "3d",
-      "ui",
       "particle",
       "physics-ammo",
-      "primitive"
+      "ui"
     ],
     "noDeprecatedFeatures": {
       "value": false,
