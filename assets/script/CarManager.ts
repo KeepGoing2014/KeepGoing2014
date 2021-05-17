@@ -17,7 +17,7 @@ export class CarManager extends Component {
     public __preload() {
         this.initSuvs();
         this.newSvu(Configs.CAR_INIT);
-        // this.initCars();
+        this.initCars();
     }
     public carmeraFollow(tartget: Node) {
         Configs.target = tartget;
@@ -55,7 +55,8 @@ export class CarManager extends Component {
                 const element = prefab[index];
                 let node = PoolManager.instance.getNode(element);
                 node.setScale(Configs.CAR_SCALE);
-                node.setPosition(new Vec3(-0.7, 0, 9.5 - 2 * index));
+                node.setPosition(new Vec3(-0.6, 0, 5 - 2 * index));
+                node.parent = self.node.parent;
                 self.cars.push(node);
             }
         })
